@@ -1,0 +1,9 @@
+{
+  "extends": "tslint-microsoft-contrib",
+  "rules": {
+    "trailing-comma": true,
+    "ordered-imports": false,
+    "import-name": false,
+    "interface-name": false
+  }
+}
