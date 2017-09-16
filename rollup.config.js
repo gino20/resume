@@ -1,4 +1,3 @@
-// import typescript from 'rollup-plugin-typescript2';
 import typescript from 'rollup-plugin-typescript';
 import rollupNodeResolve from 'rollup-plugin-node-resolve';
 import rollupCommonjs from 'rollup-plugin-commonjs';
@@ -9,6 +8,7 @@ import nodeGlobals from 'rollup-plugin-node-globals'
 import vue from 'rollup-plugin-vue';
 import postcss from 'rollup-plugin-postcss';
 import alias from 'rollup-plugin-alias'
+import svg from 'rollup-plugin-svg';
 
 const isProd = process.env.NODE_ENV === `production`
 const isDev = process.env.NODE_ENV === `development`
@@ -21,9 +21,6 @@ let config = {
   },
   plugins: [
     typescript(),
-    // alias({
-    //   vue: 'node_modules/vue/dist/vue.common.js'
-    // }),
     vue({
       css: 'dest/bundle.css'
     }),
@@ -35,6 +32,7 @@ let config = {
     rollupCommonjs(),
     nodeGlobals(),
     postcss(),
+    svg()
   ]
 }
 
