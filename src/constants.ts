@@ -52,7 +52,7 @@ export default {
     },
   ],
   skills: [
-    ['React', 'Angular', 'JQuery', 'Vue'],
+    ['React', 'Angular', 'jQuery', 'Vue'],
     ['ES6', 'Vim', 'Git', 'Nginx', 'Python'],
     ['Webpack', 'Rollup', 'Eslint', 'Babel', 'Docker'],
     ['Bootstrap', 'Sass', 'Postcss'],
