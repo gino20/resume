@@ -18,7 +18,7 @@
   import Skill from '../components/Skill.vue'
   import Career from '../components/Career.vue'
   import Education from '../components/Education.vue'
-  import constants from '../constants.js'
+  import constants from '../constants'
 
   export default {
     name: 'resume',

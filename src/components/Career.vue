@@ -19,7 +19,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
   import laptop from '../svg/laptop.svg';
   import constants from '../constants';
 

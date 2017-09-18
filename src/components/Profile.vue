@@ -23,8 +23,8 @@
   </section>
 </template>
 
-<script>
-  import constants from '../constants.js';
+<script lang="ts">
+  import constants from '../constants';
   import envelope from '../svg/envelope.svg';
   import mapMarker from '../svg/map-marker.svg';
   import phone from '../svg/phone.svg';

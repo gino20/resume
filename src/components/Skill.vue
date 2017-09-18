@@ -12,7 +12,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
   import constants from '../constants';
 
   const {

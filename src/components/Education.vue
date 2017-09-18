@@ -14,7 +14,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
   import book from '../svg/book.svg';
   import constants from '../constants';
 

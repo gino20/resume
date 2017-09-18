@@ -20,6 +20,7 @@ let config = {
   plugins: [
     typescript(),
     vue({
+      // compileTemplate: true,
       css: 'dist/bundle.css'
     }),
     rollupNodeResolve({
@@ -29,7 +30,7 @@ let config = {
     }),
     rollupCommonjs(),
     nodeGlobals(),
-    svg()
+    svg(),
   ]
 }
 
