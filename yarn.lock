@@ -578,6 +578,12 @@ commander@2.8.x:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
+commander@~2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
+  dependencies:
+    graceful-readlink ">= 1.0.0"
+
 compare-versions@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/compare-versions/-/compare-versions-2.0.1.tgz#1edc1f93687fd97a325c59f55e45a07db106aca6"
@@ -3254,6 +3260,12 @@ rollup-plugin-typescript@^0.8.1:
     tippex "^2.1.1"
     typescript "^1.8.9"
 
+rollup-plugin-uglify-es@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-uglify-es/-/rollup-plugin-uglify-es-0.0.1.tgz#e45644f2b685a59abdb9363407207a03a7b5a9b7"
+  dependencies:
+    uglify-es "3.0.3"
+
 rollup-plugin-uglify@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/rollup-plugin-uglify/-/rollup-plugin-uglify-2.0.1.tgz#67b37ad1efdafbd83af4c36b40c189ee4866c969"
@@ -3837,6 +3849,15 @@ typescript@^1.8.9:
 typescript@^2.4.1, typescript@^2.5.2:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.5.2.tgz#038a95f7d9bbb420b1bf35ba31d4c5c1dd3ffe34"
+
+uglify-es@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/uglify-es/-/uglify-es-3.0.3.tgz#63cc84aa9468b34973a4887787c64c01a8a87576"
+  dependencies:
+    commander "~2.9.0"
+    source-map "~0.5.1"
+  optionalDependencies:
+    uglify-to-browserify "~1.0.0"
 
 uglify-js@3.1.x, uglify-js@^3.0.9:
   version "3.1.0"
