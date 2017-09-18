@@ -7,7 +7,7 @@
     <div>
       <div v-for="e in education">
         <span class="during">{{e.during}}</span>
-        <span class="school">{{`${e.school} / ${e.degree}`}}</span>
+        <span class="school">{{e.school + ' / ' + e.degree}}</span>
         <span class="major">{{e.major}}</span>
       </div>
     </div>
