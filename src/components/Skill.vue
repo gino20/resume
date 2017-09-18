@@ -37,6 +37,8 @@
   .title {
     font-size: 1.2rem;
     line-height: 2rem;
+    color: #359CCF;
+    font-weight: 600;
     border-bottom: solid 1px #bbb;
   }
 

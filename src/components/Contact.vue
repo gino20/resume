@@ -16,6 +16,10 @@
         <span class="text">{{email}}</span>
       </div>
       <div>
+        <img class="icon" :src="octocat" alt="">
+        <span class="text">{{github}}</span>
+      </div>
+      <div>
         <img class="icon" :src="mapMarker" alt="">
         <span class="text">{{location}}</span>
       </div>
@@ -29,11 +33,13 @@
   import envelope from '../svg/envelope.svg';
   import mapMarker from '../svg/map-marker.svg';
   import phone from '../svg/phone.svg';
+  import octocat from '../svg/github.svg';
 
   const {
     contact: {
       location,
       mobile,
+      github,
       email,
     },
     name,
@@ -52,6 +58,8 @@
         mapMarker,
         phone,
         post,
+        github,
+        octocat,
       }
     }
   }
@@ -61,13 +69,15 @@
   .container {
     display: inline-block;
     width: 300px;
-    padding: 20px;
-    vertical-align: top;
+    padding: 0 20px;
+    vertical-align: bottom;
   }
 
   .name {
     font-size: 1.8rem;
     margin-bottom: 5px;
+    color: #359CCF;
+    font-weight: 600;
   }
 
   .post {

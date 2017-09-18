@@ -5,9 +5,11 @@
       <span>工作经验</span>
     </header>
     <div class="career" v-for="c in career">
-      <div class="company">{{c.company}}</div>
-      <div class="post">{{c.post}}</div>
-      <div class="during">{{c.during}}</div>
+      <div class="info">
+        <div class="company">{{c.company}}</div>
+        <div class="post">{{c.post}}</div>
+        <div class="during">{{c.during}}</div>
+      </div>
       <ul class="projects-list">
         <li class="project" v-for="project in c.projects">
           {{project}}
@@ -43,31 +45,45 @@
   }
 
   .title {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: #359CCF;
+    font-weight: 600;
+    background-color: #eee;
   }
 
   .icon {
     width: 25px;
     height: 25px;
     margin-right: 5px;
-    vertical-align: middle;
+    vertical-align: text-bottom;
   }
 
   .career {
     margin-bottom: 20px;
   }
 
+  .info {
+    position: relative;
+    margin-bottom: 10px;
+  }
+
   .company {
     font-size: 1.2rem;
     margin-bottom: 5px;
+    font-weight: 600;
   }
 
   .post {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
   .during {
+    position: absolute;
+    top: 10px;
+    right: 0;
     font-size: .8rem;
     color: #888;
     margin-bottom: 10px;

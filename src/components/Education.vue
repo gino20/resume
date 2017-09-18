@@ -40,13 +40,20 @@
   }
 
   .title {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: #359CCF;
+    font-weight: 600;
+    background-color: #eee;
   }
 
   .icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    vertical-align: text-bottom;
   }
 
   .during,

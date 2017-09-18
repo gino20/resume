@@ -14,10 +14,6 @@
         <td>{{birth}}</td>
       </tr>
       <tr class="row">
-        <th class="table-header">Github</th>
-        <td>{{github}}</td>
-      </tr>
-      <tr class="row">
         <th class="table-header">兴趣爱好</th>
         <td>
           <span class="hobby" v-for="hobby in hobbies"> {{hobby}}</span>
@@ -61,8 +57,8 @@
   .container {
     display: inline-block;
     width: 300px;
-    padding: 30px 10px;
-    vertical-align: top;
+    padding: 8px 10px;
+    vertical-align: bottom;
   }
 
   .content {

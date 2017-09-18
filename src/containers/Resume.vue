@@ -1,12 +1,14 @@
 <template>
   <div class="outer-container">
-    <div>
+    <div class="inner-container">
       <Contact></Contact>
       <Profile></Profile>
     </div>
-    <Career></Career>
-    <Education></Education>
-    <Skill></Skill>
+    <div class="inner-container">
+      <Career></Career>
+      <Education></Education>
+      <Skill></Skill>
+    </div>
   </div>
 </template>
 
@@ -32,10 +34,14 @@
 
 <style scoped>
   .outer-container {
-    width: 660px;
     margin: auto;
     color: #434955;
     min-height: calc(660px * (210 / 297));
+  }
+
+  .inner-container {
+    width: 660px;
+    margin: 20px auto;
   }
 </style>
 
