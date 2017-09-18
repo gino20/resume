@@ -24,4 +24,8 @@
   .root {
     margin: auto;
   }
+
+  a {
+    text-decoration: none;
+  }
 </style>

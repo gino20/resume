@@ -8,6 +8,10 @@ body {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 .outer-container[data-v-347d9961] {
   margin: auto;
   color: #434955;
@@ -37,6 +41,12 @@ body {
   font-size: 1rem;
   color: #888;
   font-style: italic;
+  margin-bottom: 5px;
+}
+
+.link[data-v-cf6573c0] {
+  color: #888;
+  cursor: pointer;
 }
 
 .contact[data-v-cf6573c0] {

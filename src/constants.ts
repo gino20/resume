@@ -11,6 +11,7 @@ export default {
     email: 'gino20.hong@gmail.com',
     mobile: '13696924950',
     github: 'https://github.com/gino20',
+    link: 'https://gino20.github.com/resume',
   },
   profile: {
     gender: '男',

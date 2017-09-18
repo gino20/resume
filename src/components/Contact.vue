@@ -6,6 +6,10 @@
     <div class="post">
       {{post}}
     </div>
+    <a class="link" :href="link">
+      <img class="icon link-icon" :src="externalLink" alt="">
+      {{link}}
+    </a>
     <div class="contact">
       <div>
         <img class="icon" :src="phone" alt="">
@@ -24,7 +28,6 @@
         <span class="text">{{location}}</span>
       </div>
     </div>
-
   </div>
 </template>
 
@@ -34,6 +37,7 @@
   import mapMarker from '../svg/map-marker.svg';
   import phone from '../svg/phone.svg';
   import octocat from '../svg/github.svg';
+  import externalLink from '../svg/external-link.svg';
 
   const {
     contact: {
@@ -41,6 +45,7 @@
       mobile,
       github,
       email,
+      link,
     },
     name,
     post,
@@ -60,6 +65,8 @@
         post,
         github,
         octocat,
+        link,
+        externalLink,
       }
     }
   }
@@ -84,6 +91,12 @@
     font-size: 1rem;
     color: #888;
     font-style: italic;
+    margin-bottom: 5px;
+  }
+
+  .link {
+    color: #888;
+    cursor: pointer;
   }
 
   .contact {
