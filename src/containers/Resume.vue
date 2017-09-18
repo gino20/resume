@@ -1,5 +1,6 @@
 <template>
   <div class="outer-container">
+    <Heading></Heading>
     <div class="inner-container">
       <Contact></Contact>
       <Profile></Profile>
@@ -13,16 +14,18 @@
 </template>
 
 <script lang="ts">
-  import Contact from '../components/Contact.vue'
-  import Profile from '../components/Profile.vue'
-  import Skill from '../components/Skill.vue'
-  import Career from '../components/Career.vue'
-  import Education from '../components/Education.vue'
-  import constants from '../constants'
+  import Heading from '../components/Heading.vue';
+  import Contact from '../components/Contact.vue';
+  import Profile from '../components/Profile.vue';
+  import Skill from '../components/Skill.vue';
+  import Career from '../components/Career.vue';
+  import Education from '../components/Education.vue';
+  import constants from '../constants';
 
   export default {
     name: 'resume',
     components: {
+      Heading,
       Contact,
       Profile,
       Skill,
@@ -41,7 +44,7 @@
 
   .inner-container {
     width: 660px;
-    margin: 20px auto;
+    margin: 15px auto;
   }
 </style>
 

@@ -35,7 +35,6 @@
 
 <style scoped>
   .container {
-    padding: 0 20px;
     margin-bottom: 20px;
   }
 

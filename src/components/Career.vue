@@ -40,7 +40,6 @@
 
 <style scoped>
   .container {
-    padding: 0 20px;
     margin-bottom: 20px;
   }
 
@@ -98,6 +97,7 @@
 
   .project {
     margin-bottom: 8px;
+    font-size: .9rem;
   }
 
 </style>

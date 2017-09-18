@@ -19,6 +19,7 @@
     font-family: Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
     margin: 0;
     font-size: 16px;
+    background-color: rgb(244, 244, 244);
   }
 
   .root {

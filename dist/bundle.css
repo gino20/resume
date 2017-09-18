@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
   margin: 0;
   font-size: 16px;
+  background-color: rgb(244, 244, 244);
 }
 
 .root {
@@ -20,33 +21,47 @@ a {
 
 .inner-container[data-v-347d9961] {
   width: 660px;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
-.container[data-v-cf6573c0] {
-  display: inline-block;
-  width: 300px;
-  padding: 0 20px;
-  vertical-align: bottom;
+.container[data-v-accc41fc] {
+  width: 660px;
+  margin: auto;
+  padding: 30px 0;
+  border-bottom: 2px solid #000;
 }
 
-.name[data-v-cf6573c0] {
+.name[data-v-accc41fc] {
   font-size: 1.8rem;
   margin-bottom: 5px;
   color: #359ccf;
   font-weight: 600;
 }
 
-.post[data-v-cf6573c0] {
+.post[data-v-accc41fc] {
   font-size: 1rem;
   color: #888;
   font-style: italic;
   margin-bottom: 5px;
 }
 
-.link[data-v-cf6573c0] {
+.link[data-v-accc41fc] {
+  font-size: .9rem;
   color: #888;
   cursor: pointer;
+}
+
+.icon[data-v-accc41fc] {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.container[data-v-cf6573c0] {
+  display: inline-block;
+  width: 300px;
+  vertical-align: bottom;
 }
 
 .contact[data-v-cf6573c0] {
@@ -91,10 +106,6 @@ a {
   margin-right: 5px;
 }
 
-.container[data-v-657525d1] {
-  padding: 0 20px;
-}
-
 .title[data-v-657525d1] {
   font-size: 1.2rem;
   line-height: 2rem;
@@ -118,7 +129,6 @@ a {
 }
 
 .container[data-v-6636beae] {
-  padding: 0 20px;
   margin-bottom: 20px;
 }
 
@@ -176,10 +186,10 @@ a {
 
 .project[data-v-6636beae] {
   margin-bottom: 8px;
+  font-size: .9rem;
 }
 
 .container[data-v-2a424ba8] {
-  padding: 0 20px;
   margin-bottom: 20px;
 }
 

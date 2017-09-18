@@ -5,13 +5,12 @@ export default {
   },
   nickname: 'gino20',
   post: 'WEB前端工程师',
-  brief: '喜欢所有更新更科学的技术',
+  link: 'https://gino20.github.com/resume',
   contact: {
     location: '北京',
     email: 'gino20.hong@gmail.com',
     mobile: '13696924950',
     github: 'https://github.com/gino20',
-    link: 'https://gino20.github.com/resume',
   },
   profile: {
     gender: '男',
@@ -53,10 +52,10 @@ export default {
     },
   ],
   skills: [
-    ['react', 'angular', 'jquery', 'vue'],
-    ['ES6', 'vim', 'git', 'nginx', 'python'],
-    ['webpack', 'rollup', 'eslint', 'babel', 'docker'],
-    ['bootstrap', 'sass', 'postcss'],
-    ['photoshop'],
+    ['React', 'Angular', 'JQuery', 'Vue'],
+    ['ES6', 'Vim', 'Git', 'Nginx', 'Python'],
+    ['Webpack', 'Rollup', 'Eslint', 'Babel', 'Docker'],
+    ['Bootstrap', 'Sass', 'Postcss'],
+    ['Photoshop'],
   ],
 };

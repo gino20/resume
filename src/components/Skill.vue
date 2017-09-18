@@ -30,10 +30,6 @@
 </script>
 
 <style scoped>
-  .container {
-    padding: 0 20px;
-  }
-
   .title {
     font-size: 1.2rem;
     line-height: 2rem;

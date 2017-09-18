@@ -1,15 +1,6 @@
 <template>
   <div class="container">
-    <div class="name">
-      {{name.chinese}}
-    </div>
-    <div class="post">
-      {{post}}
-    </div>
-    <a class="link" :href="link">
-      <img class="icon link-icon" :src="externalLink" alt="">
-      {{link}}
-    </a>
+
     <div class="contact">
       <div>
         <img class="icon" :src="phone" alt="">
@@ -37,7 +28,6 @@
   import mapMarker from '../svg/map-marker.svg';
   import phone from '../svg/phone.svg';
   import octocat from '../svg/github.svg';
-  import externalLink from '../svg/external-link.svg';
 
   const {
     contact: {
@@ -47,8 +37,6 @@
       email,
       link,
     },
-    name,
-    post,
   } = constants;
 
   export default {
@@ -58,15 +46,12 @@
         mobile,
         location,
         email,
-        name,
         envelope,
         mapMarker,
         phone,
-        post,
         github,
         octocat,
         link,
-        externalLink,
       }
     }
   }
@@ -76,27 +61,7 @@
   .container {
     display: inline-block;
     width: 300px;
-    padding: 0 20px;
     vertical-align: bottom;
-  }
-
-  .name {
-    font-size: 1.8rem;
-    margin-bottom: 5px;
-    color: #359CCF;
-    font-weight: 600;
-  }
-
-  .post {
-    font-size: 1rem;
-    color: #888;
-    font-style: italic;
-    margin-bottom: 5px;
-  }
-
-  .link {
-    color: #888;
-    cursor: pointer;
   }
 
   .contact {
