@@ -9,6 +9,7 @@
       <Career></Career>
       <Education></Education>
       <Skill></Skill>
+      <Brief></Brief>
     </div>
   </div>
 </template>
@@ -20,6 +21,7 @@
   import Skill from '../components/Skill.vue';
   import Career from '../components/Career.vue';
   import Education from '../components/Education.vue';
+  import Brief from '../components/Brief.vue';
   import constants from '../constants';
 
   export default {
@@ -31,6 +33,7 @@
       Skill,
       Career,
       Education,
+      Brief,
     }
   }
 </script>

@@ -30,7 +30,10 @@ export default {
     {
       company: '北京万门教育科技有限公司',
       during: '2014年10月 ~ 至今',
-      post: '前端开发',
+      post:
+        '万门大学是一家综合型在线教育平台, 有自主的录制课程和直播课程, 内容包括大学课程, 中学课程, 各类小语种, 各类文理科课程等. ' +
+        '本人从项目初期开始经历了三次前端框架迭代, 工作内容包括大部分页面的样式, 主要功能的开发, 前端框架搭建, 编写部分后端接口. ' +
+        '期间推进了 mobx, css modules, smart/dumb组件 等技术方案,',
       homepage: 'www.wanmen.org',
       projects: [
         {
@@ -109,8 +112,9 @@ export default {
     },
   ],
   skills: [
-    '实践过: React, Angular, jQuery, ES6, Git, Webpack, Sass, Postcss',
-    '尝试过: Vue, Vim, Git, Nginx, Python, Rollup, Docker, Photoshop',
+    '熟悉: React, Angular, jQuery, ES6, Git, Webpack, Sass, Postcss, Git',
+    '尝试: Vue, Vim, Nginx, Python, Rollup, Photoshop',
+    '了解: Docker',
   ],
-  brief: ['喜欢学习新技术, '],
+  brief: ['热爱敲代码', '喜欢新技术', '实现功能优先考虑全局方案', '轻度代码洁癖', '容易陷于最佳实践'],
 };
