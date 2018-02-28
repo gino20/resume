@@ -3,10 +3,7 @@
     <header class="title">主要技能</header>
     <ul class="list">
       <li class="skill-pack" v-for="pack in skills">
-        <div class="skill" v-for="(skill, index) in pack">
-          <span>{{skill}}</span>
-          <span v-if="index !== pack.length - 1">, </span>
-        </div>
+        {{pack}}
       </li>
     </ul>
   </section>
@@ -45,10 +42,5 @@
 
   .skill-pack {
     line-height: 1.6rem;
-  }
-
-  .skill {
-    display: inline-block;
-    margin-right: 4px;
   }
 </style>

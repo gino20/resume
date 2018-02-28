@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <header class="title">
-      <img class="icon" :src="laptop" alt="">
+      <img class="icon" :src="laptopIcon" alt="">
       <span>工作经验</span>
     </header>
     <div class="career" v-for="c in career">
@@ -12,7 +12,8 @@
       </div>
       <ul class="projects-list">
         <li class="project" v-for="project in c.projects">
-          {{project}}
+          <div class="mission"><img class="small-icon" :src="pencilIcon" alt=""> {{project.mission}}</div>
+          <div class="tech">&lt;/&gt; {{project.tech.join(', ')}}</div>
         </li>
       </ul>
     </div>
@@ -20,7 +21,8 @@
 </template>
 
 <script lang="ts">
-  import laptop from '../svg/laptop.svg';
+  import laptopIcon from '../svg/laptop.svg';
+  import pencilIcon from '../svg/pencil.svg';
   import constants from '../constants';
 
   const {
@@ -31,8 +33,9 @@
     name: 'career',
     data() {
       return {
-        laptop,
+        laptopIcon,
         career,
+        pencilIcon,
       }
     }
   }
@@ -91,7 +94,7 @@
   .projects-list {
     margin: 0;
     padding: 0;
-    list-style: inside;
+    list-style: none;
     line-height: 1.6rem;
   }
 
@@ -100,4 +103,10 @@
     font-size: .9rem;
   }
 
+  .small-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+    fill: #bbb;
+  }
 </style>
