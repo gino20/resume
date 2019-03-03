@@ -10,17 +10,17 @@
 </template>
 
 <script lang="ts">
-  import constants from '../constants';
-  const {brief} = constants;
-  
-  export default {
-    name: 'brief',
-    data() {
-      return {
-        brief,
-      }
-    }
-  }
+import constants from '../constants';
+const {brief} = constants;
+
+export default {
+  name: 'brief',
+  data() {
+    return {
+      brief,
+    };
+  },
+};
 </script>
 
 <style>

@@ -14,26 +14,26 @@
 </template>
 
 <script lang="ts">
-  import constants from '../constants';
-  import externalLink from '../svg/external-link.svg';
+import constants from '../constants';
+import externalLink from '../svg/external-link.svg';
 
-  const {
-    name,
-    post,
-    link,
-  } = constants;
+const {
+  name,
+  post,
+  link,
+} = constants;
 
-  export default {
-    name: 'heading',
-    data() {
-      return {
-        name,
-        post,
-        link,
-        externalLink,
-      }
-    }
-  }
+export default {
+  name: 'heading',
+  data() {
+    return {
+      name,
+      post,
+      link,
+      externalLink,
+    };
+  },
+};
 </script>
 
 <style scoped>

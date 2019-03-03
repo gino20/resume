@@ -24,33 +24,31 @@
 </template>
 
 <script lang="ts">
-  import constants from '../constants';
-  import envelope from '../svg/envelope.svg';
-  import mapMarker from '../svg/map-marker.svg';
-  import phone from '../svg/phone.svg';
+import constants from '../constants';
+import envelope from '../assets/envelope.svg';
+import mapMarker from '../assets/map-marker.svg';
+import phone from '../svg/phone.svg';
 
-  const {
-    profile: {
+const {
+  profile: {
+    gender,
+    workingYears,
+    birth,
+    hobbies,
+  },
+} = constants;
+
+export default {
+  name: 'profile',
+  data() {
+    return {
       gender,
       workingYears,
       birth,
-      github,
       hobbies,
-    },
-  } = constants;
-
-  export default {
-    name: 'profile',
-    data() {
-      return {
-        gender,
-        workingYears,
-        birth,
-        github,
-        hobbies,
-      }
-    }
-  }
+    };
+  },
+};
 </script>
 
 <style scoped>

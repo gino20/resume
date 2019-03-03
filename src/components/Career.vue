@@ -21,24 +21,24 @@
 </template>
 
 <script lang="ts">
-  import laptopIcon from '../svg/laptop.svg';
-  import pencilIcon from '../svg/pencil.svg';
-  import constants from '../constants';
+import laptopIcon from '../svg/laptop.svg';
+import pencilIcon from '../svg/pencil.svg';
+import constants from '../constants';
 
-  const {
-    career,
-  } = constants;
+const {
+  career,
+} = constants;
 
-  export default {
-    name: 'career',
-    data() {
-      return {
-        laptopIcon,
-        career,
-        pencilIcon,
-      }
-    }
-  }
+export default {
+  name: 'career',
+  data() {
+    return {
+      laptopIcon,
+      career,
+      pencilIcon,
+    };
+  },
+};
 </script>
 
 <style scoped>

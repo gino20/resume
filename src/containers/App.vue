@@ -5,13 +5,13 @@
 </template>
 
 <script lang="ts">
-  import Resume from './Resume.vue';
+import Resume from './Resume.vue';
 
-  export default {
-    components: {
-      Resume
-    }
-  }
+export default {
+  components: {
+    Resume,
+  },
+};
 </script>
 
 <style>

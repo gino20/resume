@@ -13,22 +13,22 @@
 </template>
 
 <script lang="ts">
-  import book from '../svg/book.svg';
-  import constants from '../constants';
+import book from '../svg/book.svg';
+import constants from '../constants';
 
-  const {
-    education,
-  } = constants;
+const {
+  education,
+} = constants;
 
-  export default {
-    name: 'education',
-    data() {
-      return {
-        book,
-        education,
-      }
-    }
-  }
+export default {
+  name: 'education',
+  data() {
+    return {
+      book,
+      education,
+    };
+  },
+};
 </script>
 
 <style scoped>

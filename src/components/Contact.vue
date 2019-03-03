@@ -23,38 +23,36 @@
 </template>
 
 <script lang="ts">
-  import constants from '../constants';
-  import envelope from '../svg/envelope.svg';
-  import mapMarker from '../svg/map-marker.svg';
-  import phone from '../svg/phone.svg';
-  import octocat from '../svg/github.svg';
+import constants from '../constants';
+import envelope from '@/assets/envelope.svg';
+import mapMarker from '@/assets/map-marker.svg';
+import phone from '@/assets/phone.svg';
+import octocat from '@/assets/github.svg';
 
-  const {
-    contact: {
-      location,
+const {
+  contact: {
+    location,
+    mobile,
+    github,
+    email,
+  },
+} = constants;
+
+export default {
+  name: 'profile',
+  data() {
+    return {
       mobile,
-      github,
+      location,
       email,
-      link,
-    },
-  } = constants;
-
-  export default {
-    name: 'profile',
-    data() {
-      return {
-        mobile,
-        location,
-        email,
-        envelope,
-        mapMarker,
-        phone,
-        github,
-        octocat,
-        link,
-      }
-    }
-  }
+      envelope,
+      mapMarker,
+      phone,
+      github,
+      octocat,
+    };
+  },
+};
 </script>
 
 <style scoped>

@@ -10,20 +10,20 @@
 </template>
 
 <script lang="ts">
-  import constants from '../constants';
+import constants from '../constants';
 
-  const {
-    skills,
-  } = constants;
+const {
+  skills,
+} = constants;
 
-  export default {
-    name: 'skill',
-    data() {
-      return {
-        skills,
-      }
-    }
-  }
+export default {
+  name: 'skill',
+  data() {
+    return {
+      skills,
+    };
+  },
+};
 </script>
 
 <style scoped>
