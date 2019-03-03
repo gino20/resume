@@ -23,3 +23,4 @@ git commit -m 'deploy'
 git push -f git@github.com:gino20/resume.git master:gh-pages
 
 cd -
+rm -r dist
