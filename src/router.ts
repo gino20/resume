@@ -10,11 +10,6 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'app',
-      component: App,
-    },
-    {
-      path: '/resume',
       name: 'resume',
       component: () => import('./views/Resume.vue'),
     },
