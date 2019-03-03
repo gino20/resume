@@ -12,8 +12,8 @@
       </div>
       <ul class="projects-list">
         <li class="project" v-for="project in c.projects">
-          <div class="mission"><img class="small-icon" :src="pencilIcon" alt=""> {{project.mission}}</div>
-          <div class="tech">&lt;/&gt; {{project.tech.join(', ')}}</div>
+          <div class="name">&lt;&gt; {{project.name}} &lt;/&gt;</div>
+          <div class="mission" v-for="mission in project.missions"><img class="small-icon" :src="pencilIcon" alt=""> {{mission}}</div>
         </li>
       </ul>
     </div>
@@ -21,8 +21,8 @@
 </template>
 
 <script lang="ts">
-import laptopIcon from '../svg/laptop.svg';
-import pencilIcon from '../svg/pencil.svg';
+import laptopIcon from '@/assets/laptop.svg';
+import pencilIcon from '@/assets/pencil.svg';
 import constants from '../constants';
 
 const {
@@ -69,7 +69,7 @@ export default {
 
   .info {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
   .company {
@@ -80,6 +80,7 @@ export default {
 
   .post {
     font-size: 1rem;
+    color: gray;
   }
 
   .during {
@@ -88,7 +89,6 @@ export default {
     right: 0;
     font-size: .8rem;
     color: #888;
-    margin-bottom: 10px;
   }
 
   .projects-list {
@@ -99,8 +99,13 @@ export default {
   }
 
   .project {
-    margin-bottom: 8px;
+    margin-bottom: 30px;
     font-size: .9rem;
+  }
+
+  .name {
+    font-weight: 600;
+    font-size: 16px;
   }
 
   .small-icon {

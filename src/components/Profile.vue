@@ -54,7 +54,7 @@ export default {
 <style scoped>
   .container {
     display: inline-block;
-    width: 300px;
+    width: 200px;
     padding: 8px 10px;
     vertical-align: bottom;
   }
@@ -70,7 +70,8 @@ export default {
   }
 
   .table-header {
-    text-align: right;
+    padding-left: 20px;
+    text-align: left;
     border-left: 1px solid #bbb;
   }
 
