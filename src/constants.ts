@@ -56,7 +56,7 @@ export default {
         {
           name: '后台管理项目',
           missions: [
-            '使用 react + antd 构建项目, 大量使用 Tabs、Table、Form 等组件',
+            '使用 react + antd 构建项目, 大量使用 Tabs、Table、Form 等组件, 开发产品内容管理、商品折扣管理等页面',
             '表单校验尝试过 async-validator, 后选用 antd Form 自带的 api 实现',
             '在 mobx 的基础上拆分 action 和 state 文件, 以方便各 state 之间的相互依赖',
           ],
@@ -64,7 +64,8 @@ export default {
         {
           name: '移动端项目',
           missions: [
-            '使用 vue-cli 搭建 Vue 项目',
+            '使用 vue-cli 搭建 Vue 项目, 实现移动站相关页面',
+            '使用 vuex 进行数据流管理',
             '移动端适配采用 rem 方案, 后采用 vw 方案, 都有不错的表现',
             '为发挥 jsx 在 render 函数上优势, 采用 jsx 方式编写组件, 而不是常用的 template',
             '尝试不同方案实现截图分享, 包括纯客户端生成客户端保存、服务端生成图片、客户端生成上传静态资源服务器',
