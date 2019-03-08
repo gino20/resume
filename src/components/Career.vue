@@ -12,8 +12,10 @@
       </div>
       <ul class="projects-list">
         <li class="project" v-for="project in c.projects">
-          <div class="name">&lt;&gt; {{project.name}} &lt;/&gt;</div>
-          <div class="mission" v-for="mission in project.missions"><img class="small-icon" :src="pencilIcon" alt=""> {{mission}}</div>
+          <div class="name"><img class="small-icon" :src="pencilIcon" alt="">&nbsp;{{project.name}}</div>
+          <ul>
+            <li class="mission" v-for="mission in project.missions">{{mission}}</li>
+          </ul>
         </li>
       </ul>
     </div>
@@ -113,5 +115,9 @@ export default {
     height: 16px;
     vertical-align: text-bottom;
     fill: #bbb;
+  }
+
+  .mission {
+    list-style: disc;
   }
 </style>
