@@ -29,7 +29,7 @@ export default {
   career: [
     {
       company: '北京万门教育科技有限公司',
-      during: '2014年10月 ~ 至今',
+      during: '2014.10 ~ 至今',
       post:
         '万门大学是一家综合型在线教育平台, 有自主的录制课程和直播课程, 内容包括大学课程, 中学课程, 各类小语种, 各类文理科课程等. ' +
         '工作内容包括前端架构搭建, 大部分页面的样式, 主要功能的开发. ' +
@@ -100,7 +100,7 @@ export default {
     },
     {
       company: '厦门蓝蕾软件科技有限公司',
-      during: '2014年8月',
+      during: '2014.08',
       post: '前端开发实习',
       homepage: 'jdxx.jd-dian.com/indexPC.html',
       projects: [
@@ -110,6 +110,21 @@ export default {
         },
       ],
     },
+    {
+      company: '厦门市品佳贸易有限公司',
+      during: '2014.03 ~ 2014.06',
+      post: '餐饮配送员',
+    },
+    {
+      company: '沃骐（厦门）装饰有限公司',
+      during: '2012.06 ~ 2013.10',
+      post: '综合部职员',
+    },
+    {
+      company: '厦门产业技术研究院 技术市场部职员 2010.9-2011.',
+      during: '2010.09 ~ 2011.06',
+      post: '技术市场部职员',
+    }
   ],
   skills: [
     '熟悉: React, Vue, jQuery, ES6, Git, Webpack, Sass, Postcss, GraphQL',
