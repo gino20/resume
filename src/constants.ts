@@ -15,7 +15,7 @@ export default {
   profile: {
     gender: "男",
     birth: "1987.01",
-    workingYears: "4年",
+    workingYears: "5年",
     hobbies: ["足球", "篮球"]
   },
   education: [
@@ -48,7 +48,7 @@ export default {
             "编写基础组件, 如 Button, Carousel, Modal 等",
             "使用 axios 拦截器进行全局 http 请求的处理",
             "实现注册登录, 视屏播放, 在线支付, 微信分享等功能",
-            "为满足项目的扩展, 尝试过 拆分多个项目、一个项目同时打包多个dist、一个项目分别打包多个dist、monorepos 后, 选用 yarn workspaces 和 lerna 构建 monorepos",
+            "为满足项目的扩展需求, 选用 yarn workspaces 和 lerna 构建 monorepos",
             "使用 react hook 重构表单, 实现数据初始化, 数据修改, 数据校验等功能, 在不额外引入三方库的情况下有很强的自定义性",
             "不断进行其他技术方案的实现尝试, 如 worker、rxjs"
           ]
@@ -109,21 +109,6 @@ export default {
           missions: ["使用 Sass, jQuery 编写页面"]
         }
       ]
-    },
-    {
-      company: "厦门市品佳贸易有限公司",
-      during: "2014.03 ~ 2014.06",
-      post: "餐饮配送员"
-    },
-    {
-      company: "沃骐（厦门）装饰有限公司",
-      during: "2012.06 ~ 2013.10",
-      post: "综合部职员"
-    },
-    {
-      company: "厦门产业技术研究院 技术市场部职员",
-      during: "2010.09 ~ 2011.06",
-      post: "技术市场部职员"
     }
   ],
   skills: [
