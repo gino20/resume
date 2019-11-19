@@ -5,7 +5,7 @@ export default {
   },
   nickname: "gino20",
   post: "WEB前端工程师",
-  link: "https://gino20.github.com/resume/index.html",
+  link: "https://gino20.github.com/resume",
   contact: {
     location: "北京",
     email: "gino20.hong@gmail.com",
