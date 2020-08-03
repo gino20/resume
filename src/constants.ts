@@ -15,7 +15,7 @@ export default {
   profile: {
     gender: "男",
     birth: "1987.01",
-    workingYears: "5年",
+    workingYears: "6年",
     hobbies: ["足球", "篮球"]
   },
   education: [
@@ -62,7 +62,6 @@ export default {
             "开发产品内容管理、商品折扣管理、角色权限管理、套餐管理等页面",
             "表单校验尝试过 async-validator, 后用 antd Form 自带的 api 实现",
             "在 mobx 的基础上拆分 action 和 state 文件, 以方便各 state 之间的相互依赖",
-            "使用 antd design pro 重构项目"
           ]
         },
         {
@@ -90,16 +89,20 @@ export default {
         {
           name: "电视盒子项目",
           missions: [
-            "使用 RN 构建项目, 参与开发视频播放, 在线支付, 权限判断等功能",
+            "使用 ReactNative 构建项目, 参与开发视频播放, 在线支付, 权限判断等功能",
             "使用 touchable 组件实现 TV 端的焦点停留",
             "使用 env 文件区分不同的环境变量",
             "使用 RN 提供的 api 进行 px2dp 的换算"
           ]
         },
         {
-          name: "其他",
-          missions: ["修改 node 接口", "编写 python 数据迁移脚本"]
-        }
+          name: "CRM项目",
+          missions: [
+            "使用 gin 编写 api, 使用 umi 编写客户端",
+            "开发的功能包括客户增删改查, 客户跟进提醒, 分配客户等",
+            "体验面向接口编程"
+          ]
+        },
       ]
     },
     {
@@ -120,14 +123,14 @@ export default {
     }
   ],
   skills: [
-    "熟悉: React, Vue, jQuery, ES6, Git, Webpack, Sass, Postcss, GraphQL, Next",
-    "用过: Angular, rxjs, Vim, Nginx, Python, Rollup, Photoshop"
+    "熟悉: React, Vue, jQuery, ES6, Git, Webpack, Sass, Postcss, GraphQL, Next, Golang, ReactNative",
+    "用过: Angular, rxjs, Vim, Nginx, Python, Rollup, Photoshop, Swift"
   ],
   brief: [
     "热爱敲代码",
     "喜欢新技术",
-    "实现功能的同时考量对全局的影响",
+    "实现功能同时兼顾全局",
     "轻度代码洁癖",
-    "乐于尝试各种更好的实现方案"
+    "乐于尝试各种实现方案",
   ]
 };
